@@ -7,8 +7,8 @@
   "build": {
     "appId": "play.land",
     "win": {
-      "icon": "build/icon.ico"
-  }
+      "icon": "build/icon.png"
+    }
   },
   "homepage": "./",
   "dependencies": {
