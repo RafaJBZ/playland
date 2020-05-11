@@ -254,7 +254,7 @@ class ConsultaNiños extends React.PureComponent {
                 <button className="btnTable" onClick={this.updateData}>Update</button>
                 <Popup trigger={<button className="btnTable" >Borrar</button>} position="right center">
                     <center>
-                        <div>¿Estás seguro de eliminar esete registro?</div>
+                        <div>¿Estás seguro de eliminar este registro?</div>
                         <button className="btnTable" onClick={this.deleteN}>si</button> 
                     </center>
                 </Popup>

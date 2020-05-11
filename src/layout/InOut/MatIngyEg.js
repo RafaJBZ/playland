@@ -174,7 +174,7 @@ export class MatIngyEg extends Component {
                         <label>tipo</label>
                         <select type='text' name='tipo' value={this.state.tipo} onChange={this.onChange}>
                             <option value = '1'>Entrada</option>
-                            <option value = '1'>Salida</option>
+                            <option value = '2'>Salida</option>
                         </select>
                         <label>Horario</label>
                         <input type='text' name='time' value={this.state.time} onChange={this.onChange} placeholder='00:00 24hrs'/>

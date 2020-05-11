@@ -120,7 +120,7 @@ export class Matninos extends Component {
                     lugarN: '',
                     peso: '',
                     estatura: '',
-                    sangre: '',
+                    sangre: 'O-',
                     lado: '',
                     direc: '',
                     desarrolloE: '',
