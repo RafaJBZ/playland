@@ -1,13 +1,26 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import './playland.css';
+import React from 'react';
+import './App.css';
+import Login from './layout/login.js';
+import { HashRouter as Router, Route } from 'react-router-dom'
+import Matriculacion from './pages/Matriculacion';
+import Medicinas from './pages/Medicinas';
+import IngEg from './pages/IngEg';
+
 import * as serviceWorker from './serviceWorker';
+import App from './App';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Router>
+    <div>
+      <Route exact path='/' component={Login} />
+      <Route exact path='/Matriculacion' component={Matriculacion} />
+      <Route exact path='/Medicinas' component={Medicinas} />
+      <Route exact path='/Ingresos_Egresos' component={IngEg} />
+    </div>
+  </Router>,
   document.getElementById('root')
 );
 
