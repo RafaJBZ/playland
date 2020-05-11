@@ -120,7 +120,7 @@ export class Matninos extends Component {
                     lugarN: '',
                     peso: '',
                     estatura: '',
-                    sangre: 'O-',
+                    sangre: '',
                     lado: '',
                     direc: '',
                     desarrolloE: '',
@@ -197,7 +197,8 @@ export class Matninos extends Component {
                         <input type='number' name='estatura' value={this.state.estatura} onChange={this.onChange} placeholder='Mts' />
                         <label>Tipo de Sangre </label>
                         <select type='text' name='sangre' value={this.state.sangre} onChange={this.onChange}>
-                            <option value='O-' defaultValue>O-</option>
+                            <option value = 'default'>Tipo de sangre</option>
+                            <option value='O-'>O-</option>
                             <option value='O+'>O+</option>
                             <option value='A-'>A-</option>
                             <option value='A+'>A+</option>
