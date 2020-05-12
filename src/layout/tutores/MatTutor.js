@@ -15,7 +15,6 @@ export class MatTutor extends Component {
             nombret: '',
             direct: '',
             tel: '',
-            edadt: '',
             profesion: '',
             trabajo: '',
 
@@ -48,7 +47,6 @@ export class MatTutor extends Component {
                     "name": this.state.nombret,
                     "address": this.state.direct,
                     "phone": this.state.tel,
-                    "age": this.state.edadt,
                     "profession": this.state.profesion,
                     "work": this.state.trabajo
                 }
@@ -61,7 +59,6 @@ export class MatTutor extends Component {
                 nombret: '',
                 direct: '',
                 tel: '',
-                edadt: '',
                 profesion: '',
                 trabajo: ''
             });
@@ -126,8 +123,6 @@ export class MatTutor extends Component {
                         <input type='text' name='direct' value={this.state.direct} onChange={this.onChange} />
                         <label>Teléfono </label>
                         <input type='text' name='tel' value={this.state.tel} onChange={this.onChange} maxLength='10' />
-                        <label>Edad </label>
-                        <input type='number' name='edadt' value={this.state.edadt} onChange={this.onChange} />
                         <label>Profesión </label>
                         <input type='text' name='profesion' value={this.state.profesion} onChange={this.onChange} />
                         <label>Lugar de Trabajo </label>

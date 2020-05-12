@@ -31,11 +31,6 @@ class TablaTutores extends Component {
                     editable: true,
                     colId: '2'
                 }, {
-                    headerName: 'Edad',
-                    field: 'edad',
-                    editable: true,
-                    colId: '3'
-                }, {
                     headerName: 'Profesión',
                     field: 'profesion',
                     editable: true,
