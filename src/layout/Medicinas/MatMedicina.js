@@ -96,12 +96,16 @@ export class MatMedicina extends Component {
         if (this.state.success === true) {
             alert = <MatSuccess />
         }
+
+        const linea = {
+            opacity:'100%'
+        }
         return (
             <div id="matForm" className='datosN'>
                 <br></br>
                 <h2>Nuevo Medicamento</h2>
 
-                <hr className="hr-Mat"></hr>
+                <hr className="hr-Mat" style = {linea}></hr>
                 <div>
                     <h3>Datos del Medicamento</h3>
                     {alert}
@@ -116,9 +120,9 @@ export class MatMedicina extends Component {
                         <label>Medicamento </label>
                         <input type='text' name='nombre' value={this.state.nombre} onChange={this.onChange} />
                         <label>Ultima Hora de Administración </label>
-                        <input type='text' name='uhora' value={this.state.uhora} onChange={this.onChange} placeholder='00:00' />
+                        <input type='text' name='uhora' value={this.state.uhora} onChange={this.onChange} placeholder='00:00 24hrs' />
                         <label>Próxima Hora de Administración </label>
-                        <input type='text' name='phora' value={this.state.phora} onChange={this.onChange} placeholder='00:00' />
+                        <input type='text' name='phora' value={this.state.phora} onChange={this.onChange} placeholder='00:00 24hrs' />
                     </div>
                     <button id="btnMat" className="btnForm" onClick={this.onClick}>Aceptar</button>
                 </div>

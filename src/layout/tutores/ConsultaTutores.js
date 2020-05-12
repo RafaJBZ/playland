@@ -20,10 +20,13 @@ class ConsultaTutores extends Component {
 
     render() {
         var nombre = this.state.nombreniño
+        const linea = {
+            opacity:'100%'
+        }
         return (
             <div id="matForm" className="CompTab" style={{ 'marginLeft': '25%' }}>
                 <h3 className="h2Blue">Ver Tutores</h3>
-                <hr className="hr-Mat" />
+                <hr className="hr-Mat" style = {linea}/>
                 <div className="textdiv-Tut"><h3 className="texttable">Nombre Alumnos</h3><h3 className="texttable2">Detalles</h3></div>
                 <div>
                     <ConsultaNiños PasarNombre={this.PasarNombre} />

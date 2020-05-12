@@ -102,11 +102,14 @@ export class MatTutor extends Component {
         if (this.state.success === true) {
             alert = <MatSuccess />
         }
+        const linea = {
+            opacity:'100%'
+        }
         return (
             <div id="matForm" className='datosN'>
                 <br></br>
                 <h2>Matricular Tutor</h2>
-                <hr className="hr-Mat"></hr>
+                <hr className="hr-Mat" style = {linea}></hr>
                 <div>
                     <h3>Datos del Tutor</h3>
                     {alert}

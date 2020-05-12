@@ -75,7 +75,7 @@ export class login extends Component {
                 <div>
                     <img className="logoplayland" src={playlandlogo} alt=''></img>
                     <img className="stripes" src={strippeslogin} style = {op2} alt=''></img>
-                    <div className="logindiv" style = {op1}>
+                    <form className="logindiv" style = {op1}>
                         {error}
                         <h6 className="lblBien">¡Bienvenid@!<hr/></h6>
                         <input className="txtlogin" name='Usuario' type='text' value={this.state.usuario} onChange={this.onChange} placeholder='Usuario' />
@@ -88,7 +88,7 @@ export class login extends Component {
                                 </p>
                             
                         </button>
-                    </div>
+                    </form>
 
                     <img className="logostring" src={stringcorelogo} alt=''></img>
                 </div>

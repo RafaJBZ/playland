@@ -145,6 +145,11 @@ export class MatIngyEg extends Component {
             gridTemplateColumns: 'repeat(4,1fr)',
             gridGap: '5px'
         }
+
+        const linea = {
+            opacity:'100%'
+        }
+
         if (this.state.fail === true) {
             alert = <MatErr />
         }
@@ -157,7 +162,7 @@ export class MatIngyEg extends Component {
                 <br></br>
                 <h2>Entradas y Salidas</h2>
 
-                <hr className="hr-Mat" />
+                <hr className="hr-Mat" style = {linea}/>
                 <br></br>
                 <div>
                     <h3>Datos</h3>

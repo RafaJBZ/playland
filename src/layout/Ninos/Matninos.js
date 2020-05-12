@@ -164,6 +164,10 @@ export class Matninos extends Component {
             gridGap: '5px'
         }
 
+        const linea = {
+            opacity:'100%'
+        }
+
         if (this.state.fail === true) {
             alert = <MatErr />
         }
@@ -176,7 +180,7 @@ export class Matninos extends Component {
                 <br></br>
                 <h2>Matricular Niño</h2>
 
-                <hr className="hr-Mat" />
+                <hr className="hr-Mat" style = {linea}/>
                 <form>
                     <h3>Datos del Niño</h3>
                     {alert}
@@ -186,11 +190,11 @@ export class Matninos extends Component {
                         <label>Fecha de Nacimiento </label>
                         <input type='text' name='fechaN' value={this.state.fechaN} onChange={this.onChange} placeholder='AAAA/MM/DD' />
                         <label>Horario </label>
-                        <input type='text' name='horario' value={this.state.horario} onChange={this.onChange} />
+                        <input type='text' name='horario' value={this.state.horario} onChange={this.onChange} placeholder='00:00 24hrs'/>
                         <label>Fecha de Registro </label>
                         <input type='text' name='fechaR' value={this.state.fechaR} onChange={this.onChange} placeholder='AAAA/MM/DD' />
                         <label>Lugar de Nacimiento </label>
-                        <input type='text' name='lugarN' value={this.state.lugarN} onChange={this.onChange} />
+                        <input type='text' name='lugarN' value={this.state.lugarN} onChange={this.onChange}/>
                         <label>Peso Actual </label>
                         <input type='number' name='peso' value={this.state.peso} onChange={this.onChange} placeholder='Kg' />
                         <label>Estatura Actual </label>

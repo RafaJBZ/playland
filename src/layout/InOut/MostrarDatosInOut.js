@@ -20,11 +20,13 @@ export class MostrarDatosInOut extends Component {
 
     render() {
         var data = this.state.NombreNiño
-
+        const linea = {
+            opacity:'100%'
+        }
         return (
             <div id="matForm" className="CompTab" style = {{'margin-left': '25%'}}>   
             <h3 className="h2Blue">Historial Ingresos y Egresos</h3>
-            <hr className="hr-Mat"/>
+            <hr className="hr-Mat" style = {linea}/>
             <center>
             <div className="textdiv"><h3 className="texttable">Nombre Alumnos</h3><h3 className="texttable2">Detalles</h3></div>
             </center>

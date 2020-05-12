@@ -27,11 +27,14 @@ class MostrarDatosAlumnos extends Component{
     render(){
         var data = this.state.NombreNiño
         var nombreAct = this.state.NombreAct
+        const linea = {
+            opacity:'100%'
+        }
         return(
             
             <div id="matForm" className="CompTab" style = {{'marginLeft': '25%'}}>   
             <h3 className="h2Blue">Ver Niños</h3>
-            <hr className="hr-Mat"/>
+            <hr className="hr-Mat" style = {linea}/>
             <center>
             <div className="textdiv"><h3 className="texttable">Nombre Alumnos</h3><h3 className="texttable2">Detalles</h3></div>
             </center>
