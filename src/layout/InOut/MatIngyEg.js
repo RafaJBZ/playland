@@ -164,7 +164,7 @@ export class MatIngyEg extends Component {
 
                 <hr className="hr-Mat" style = {linea}/>
                 <br></br>
-                <div>
+                <form>
                     <h3>Datos</h3>
                     {alert}
 
@@ -207,7 +207,7 @@ export class MatIngyEg extends Component {
                         <input type='text' name='injury' value={this.state.injury} onChange={this.onChange} />
                     </div>
                     <button id="btnMat" className="btnForm" onClick={this.onClick}>Aceptar</button>
-                </div>
+                </form>
             </div>
         )
     }

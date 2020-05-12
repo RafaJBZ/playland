@@ -106,7 +106,7 @@ export class MatMedicina extends Component {
                 <h2>Nuevo Medicamento</h2>
 
                 <hr className="hr-Mat" style = {linea}></hr>
-                <div>
+                <form>
                     <h3>Datos del Medicamento</h3>
                     {alert}
                     <div style={columnas} className="datos">
@@ -125,7 +125,7 @@ export class MatMedicina extends Component {
                         <input type='text' name='phora' value={this.state.phora} onChange={this.onChange} placeholder='00:00 24hrs' />
                     </div>
                     <button id="btnMat" className="btnForm" onClick={this.onClick}>Aceptar</button>
-                </div>
+                </form>
             </div>
         )
     }

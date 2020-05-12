@@ -110,7 +110,7 @@ export class MatTutor extends Component {
                 <br></br>
                 <h2>Matricular Tutor</h2>
                 <hr className="hr-Mat" style = {linea}></hr>
-                <div>
+                <form>
                     <h3>Datos del Tutor</h3>
                     {alert}
                     <div style={columnas} className="datos">
@@ -134,7 +134,7 @@ export class MatTutor extends Component {
                         <input type='text' name='trabajo' value={this.state.trabajo} onChange={this.onChange} />
                     </div>
                     <button id="btnMat" className="btnForm" onClick={this.onClick}>Aceptar</button>
-                </div>
+                </form>
             </div>
 
         )
