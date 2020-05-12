@@ -33,15 +33,15 @@ class ConsultaNiños extends React.PureComponent {
             }, {
                 headerName: 'Lado Dominante', field: 'ladoDominante', editable: true, colId: '8'
             }, {
-                headerName: 'Direccion', field: 'direccion', editable: true, colId: '9'
+                headerName: 'Dirección', field: 'direccion', editable: true, colId: '9'
             }, {
                 headerName: 'Desarrollo del Embarazo', field: 'desarrolloEmbarazo', editable: true, colId: '10'
             }, {
                 headerName: 'Tipo de Parto', field: 'parto', editable: true, colId: '11'
             }, {
-                headerName: 'limentacion', field: 'alimentacion', editable: true, colId: '12'
+                headerName: 'Alimentación', field: 'alimentacion', editable: true, colId: '12'
             }, {
-                headerName: 'Detincion', field: 'detincion', editable: true, colId: '13'
+                headerName: 'Dentinción', field: 'detincion', editable: true, colId: '13'
             }, {
                 headerName: 'Enfermedades Padecidas', field: 'enfermedadesPadecidas', editable: true, colId: '14'
             }, {
@@ -51,13 +51,13 @@ class ConsultaNiños extends React.PureComponent {
             }, {
                 headerName: 'Pediatra', field: 'pediatra', editable: true, colId: '17'
             }, {
-                headerName: 'Habitos de Sueño', field: 'habitosSueño', editable: true, colId: '18'
+                headerName: 'Hábitos de Sueño', field: 'habitosSueño', editable: true, colId: '18'
             }, {
                 headerName: 'Motricidad', field: 'motricidad', editable: true, colId: '19'
             }, {
                 headerName: 'Habla', field: 'habla', editable: true, colId: '20'
             }, {
-                headerName: 'Dontrol de Esfinteres', field: 'controlEsfinteres', editable: true, colId: '21'
+                headerName: 'Dontrol de Esfínteres', field: 'controlEsfinteres', editable: true, colId: '21'
             }, {
                 headerName: 'Independencia', field: 'independencia', editable: true, colId: '22'
             }, {
@@ -251,7 +251,7 @@ class ConsultaNiños extends React.PureComponent {
                         onCellValueChanged={this.updateCell}
                     />
                 </div>
-                <button className="btnTable" onClick={this.updateData}>Update</button>
+                <button className="btnTable" onClick={this.updateData}>Actualizar</button>
                 <Popup trigger={<button className="btnTable" >Borrar</button>} position="right center">
                     <center>
                         <div>¿Estás seguro de eliminar este registro?</div>

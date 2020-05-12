@@ -119,7 +119,7 @@ export class MatMedicina extends Component {
                         <input type='text' name='fecha' value={this.state.fecha} onChange={this.onChange} placeholder='AAAA/MM/DD' />
                         <label>Medicamento </label>
                         <input type='text' name='nombre' value={this.state.nombre} onChange={this.onChange} />
-                        <label>Ultima Hora de Administración </label>
+                        <label>Última Hora de Administración </label>
                         <input type='text' name='uhora' value={this.state.uhora} onChange={this.onChange} placeholder='00:00 24hrs' />
                         <label>Próxima Hora de Administración </label>
                         <input type='text' name='phora' value={this.state.phora} onChange={this.onChange} placeholder='00:00 24hrs' />

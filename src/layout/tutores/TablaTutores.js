@@ -21,12 +21,12 @@ class TablaTutores extends Component {
                     editable: false,
                     colId: '0'
                 }, {
-                    headerName: 'Direccion',
+                    headerName: 'Dirección',
                     field: 'direccion',
                     editable: true,
                     colId: '1'
                 }, {
-                    headerName: 'Telefono',
+                    headerName: 'Teléfono',
                     field: 'telefono',
                     editable: true,
                     colId: '2'
@@ -36,12 +36,12 @@ class TablaTutores extends Component {
                     editable: true,
                     colId: '3'
                 }, {
-                    headerName: 'Profesion',
+                    headerName: 'Profesión',
                     field: 'profesion',
                     editable: true,
                     colId: '4'
                 }, {
-                    headerName: 'LugarTrabajo',
+                    headerName: 'Lugar de Trabajo',
                     field: 'lugarTrabajo',
                     editable: true,
                     colId: '5'

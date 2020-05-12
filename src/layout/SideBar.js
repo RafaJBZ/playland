@@ -36,7 +36,7 @@ class SideBar extends Component{
                     <li className = 'ingeng'>
                         <div >
                             <Link to = '/Ingresos_Egresos'>
-                                <span><i className="fa fa-sign-in fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;Ingresos y Egresos</span>
+                                <span><i className="fa fa-sign-in fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;Entradas y Salidas</span>
                             </Link>
                         </div>
                     </li>

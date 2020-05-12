@@ -14,7 +14,7 @@ export class TablaMedicinas extends Component {
             }, {
                 headerName: 'Tipo de Medicamento', field: 'tipoMedicamento', editable: false, colId: '1'
             }, {
-                headerName: 'Ultima Administración', field: 'ultimaAdministracion', editable: false, colId: '2'
+                headerName: 'Última Administración', field: 'ultimaAdministracion', editable: false, colId: '2'
             }, {
                 headerName: 'Próxima Administración', field: 'proximaAministracion', editable: false, colId: '3'
             }

@@ -221,7 +221,7 @@ export class Matninos extends Component {
                         <input type='text' name='parto' value={this.state.parto} onChange={this.onChange} />
                         <label>Alimentación </label>
                         <input type='text' name='alimento' value={this.state.alimento} onChange={this.onChange} />
-                        <label>Dentincion </label>
+                        <label>Dentinción </label>
                         <input type='text' name='dentincion' value={this.state.dentincion} onChange={this.onChange} />
                         <label>Enfermedades Recientes</label>
                         <input type='text' name='enfermedades' value={this.state.enfermedades} onChange={this.onChange} />
@@ -231,7 +231,7 @@ export class Matninos extends Component {
                         <input type='text' name='alergias' value={this.state.alergias} onChange={this.onChange} />
                         <label>Pediatra </label>
                         <input type='text' name='pediatra' value={this.state.pediatra} onChange={this.onChange} />
-                        <label>Habitos de Sueño </label>
+                        <label>Hábitos de Sueño </label>
                         <input type='text' name='sueno' value={this.state.sueno} onChange={this.onChange} />
                         <label>Motricidad </label>
                         <input type='text' name='motricidad' value={this.state.motricidad} onChange={this.onChange} />

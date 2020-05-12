@@ -176,19 +176,19 @@ export class MatIngyEg extends Component {
                         </select>
                         <label>Fecha</label>
                         <input type='text' name='date' value={this.state.date} onChange={this.onChange} placeholder='AAAA/MM/DD'/>
-                        <label>tipo</label>
+                        <label>Tipo</label>
                         <select type='text' name='tipo' value={this.state.tipo} onChange={this.onChange}>
                             <option value = '1'>Entrada</option>
                             <option value = '2'>Salida</option>
                         </select>
-                        <label>Horario</label>
+                        <label>Hora</label>
                         <input type='text' name='time' value={this.state.time} onChange={this.onChange} placeholder='00:00 24hrs'/>
                         <label>Tutor</label>
                         <select type='text' name='nombret' value={this.state.nombret} onChange={this.onChange}>
                             <option value = "default">Selecciona un Tutor</option>
                             {this.opcionnombresTutores}
                         </select>
-                        <label>Hygiene al Ingreso/Salida </label>
+                        <label>Higiene al Ingreso/Salida </label>
                         <select type='text' name='hygiene' value={this.state.hygiene} onChange={this.onChange}>
                             <option value = 'Limpio' defaultValue>Limpio</option>
                             <option value = 'Regular'>Regular</option>
